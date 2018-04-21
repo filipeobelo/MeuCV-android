@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MeuCV</string>
+    <string name="toolbar_title">Filipe Belo</string>
+    <string name="title_activity_cv_change">CvChangeActivity</string>
+    <string name="hint">Selecione uma categoria na caixa acima para alterar sua descrição</string>
+    <string name="edit_cv">Editar currículo</string>
+    <string name="save">Aplicar alterações</string>
+</resources>
