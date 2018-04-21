@@ -7,7 +7,7 @@ A imagem e a descrição ficam gravadas no banco de dados. O usuario pode clicar
 Na segunda atividade, há um spinner, um editor de texto e um botão. No spinner o usuário
 
 ### ATIVIDADE PRINCIPAL
-Ao navegar pelas categorias, o botão "voltar" funciona normalmente (ex: Graduação -> Experiência Profissional (**voltar**) -> Graduação (**voltar**) -> aplicativo é fechado
+Ao navegar pelas categorias, o botão "voltar" funciona normalmente (ex: Graduação -> Experiência Profissional (**voltar**) -> Graduação (**voltar**) -> aplicativo é fechado) Obs: ao ir para a outra atividade, clicando no menu Editar Curriculo, as transações de fragmento são zeradas.
 
 <img src="https://user-images.githubusercontent.com/38297512/39089154-6f500c4e-458e-11e8-8fea-ccc4d4ba2cb1.png" width="150"> <img src="https://user-images.githubusercontent.com/38297512/39089259-d3ca32c4-4590-11e8-855c-87fa481d39b4.png" width="150"> <img src="https://user-images.githubusercontent.com/38297512/39089267-2ebd9036-4591-11e8-9c1f-9ca87ce35931.png" width="150">
 
