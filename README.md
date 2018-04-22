@@ -4,7 +4,7 @@ MeuCV -> aplicativo para usar como um curriculo com 4 categorias pré definidas 
 (Graduação - Experiência profissional - Java e Android - Internacional)
 O usuario pode clicar na lista com as categorias e uma imagem e uma descrição surgirão na tela (na mesma atividade).
 A imagem e a descrição ficam gravadas no banco de dados. O usuario pode clicar no menu "EDITAR CURRÍCULO" e navegar para outra atividade.
-Na segunda atividade, há um spinner, um editor de texto e um botão. No spinner o usuário
+Na segunda atividade, há um spinner, um editor de texto e um botão. No spinner o usuário pode escolher uma categoria para alterar no editor de texto.
 
 ### ATIVIDADE PRINCIPAL
 Ao navegar pelas categorias, o botão "voltar" funciona normalmente (ex: Graduação -> Experiência Profissional (**voltar**) -> Graduação (**voltar**) -> aplicativo é fechado) Obs: ao ir para a outra atividade, clicando no menu Editar Curriculo, as transações de fragmento são zeradas.
