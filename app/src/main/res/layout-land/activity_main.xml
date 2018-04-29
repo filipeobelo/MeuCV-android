@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -14,38 +14,39 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:navigationIcon="@mipmap/ic_launcher"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:title="@string/toolbar_title" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/list_category"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_margin="16dp"
-            android:baselineAligned="false">
+            android:layout_weight="2"
+            android:paddingEnd="13dp"
+            tools:ignore="RtlSymmetry" />
 
-            <ListView
-                android:id="@+id/list_category"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:paddingEnd="13dp"
-                android:layout_weight="2"
-                tools:ignore="RtlSymmetry" />
+        <FrameLayout
+            android:id="@+id/fragment_container_logo"
+            android:layout_width="0dp"
+            android:padding="16dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
 
-            <FrameLayout
-                android:id="@+id/fragment_container_logo"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="3"/>
-
-            <FrameLayout
-                android:id="@+id/fragment_container_description"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="3"
-                android:paddingTop="30dp"/>
+        <FrameLayout
+            android:id="@+id/fragment_container_description"
+            android:layout_width="0dp"
+            android:padding="16dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:paddingTop="30dp" />
 
 
     </LinearLayout>
